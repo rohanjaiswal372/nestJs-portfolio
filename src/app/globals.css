@@ -4,8 +4,8 @@
 
 @layer components {
   .heroButton {
-    @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all 
-    hover:border-[#f7AB0A]/40 hover:text-[#F7AB0A]/40
+    @apply mx-2 px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all 
+    hover:border-[#C2571A]/40 hover:text-[#C2571A]
   }
 
   .contactInput {
@@ -13,4 +13,16 @@
     text-gray-500 placeholder-gray-500 transition-all focus:border-[#F7AB0A]/40
     focus:text-[#F7AB0A]/40 hover:border-[#F7AB0A]/40
   }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* For Internet Explorer 10+ */
+  scrollbar-width: none;  /* For Firefox */
+}
+
+.main {
+  background-color: #f7f9fc;
 }

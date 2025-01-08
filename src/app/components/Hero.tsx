@@ -7,30 +7,29 @@ import Link from 'next/link'
 function Hero() {
   const [text, count] = useTypewriter({
     words: [
-      "<p>Hello World!</p>",
-      "My name is Rohan Jaiswal",
-      "Angular, React, Vue",
-      "NodeJS PHP Python"
+      "Skilled in crafting elegant, responsive websites.",
+      "Proficient in optimizing efficient, scalable code.",
+      "Innovative with meticulous attention to design.",
     ],
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 4000,
   })
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
-      <BackgroundCircles />
+      {/* <BackgroundCircles /> */}
       <Image
         src="/profile.jpeg"
-        className="relative rounded-full mx-auto object-cover h-32 w-32"
-        width={800}
-        height={800}
+        className="relative rounded-full mx-auto object-cover h-50 w-42"
+        width={400}
+        height={400}
+        alt=""
       />
       <div className='z-20'>
-        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>Software Engineer</h2>
-        <h1 className='text-5xl lg:text-6xl font-semibold scroll-px-10'>
-          <span className='mr-3'>{text}</span>
+        <h2 className='text-sm uppercase text-[#800020] pb-2 tracking-[15px]'>Software Engineer</h2>
+        <h1 className='text-5xl lg:text-4xl font-semibold scroll-px-10 pt-5 pb-5'>
+          <span className='mr-3 text-[#333333]'>{text}</span>
           <Cursor cursorColor='#f7ABABAB' />
         </h1>
-
         <div className='pt-5'>
           <Link href="#about">
             <button className='heroButton'>About</button>
