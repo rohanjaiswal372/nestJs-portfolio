@@ -6,7 +6,7 @@ function ExperienceCard(props: any) {
   return (
     <article className='flex flex-col text-center items-center rounded-lg space-y-7 flex-shrink-0 
     w-[600px] md:w-[700px] xl:w-[1000px] xl:h-[600px] snap-center p-10 cursor-pointer
-    transition-opacity duration-200 overflow-hidden border-2 border-gray-500 hover:border-blue-500 bg-[#c5c2cd]'>
+    transition-opacity duration-200 overflow-hidden bg-[#f7f9fc]/60'>
       <motion.img
         initial={{
           y: -100,
