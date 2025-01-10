@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className='main h-screen snap-y snap-mandatory overflow-scroll z-0'>
       <Header />
-      <section id="hero" className='snap-center'>
+      <section id="hero" className='snap-center bg-[#e7deff]'>
         <Hero />
       </section>
 
@@ -21,19 +21,19 @@ export default function Home() {
         <About />
       </section>
       {/* Experience */}
-      <section id="experience" className='snap-center bg-gradient-to-t from-[#800020] to-[#ffcccb]'>
+      <section id="experience" className='snap-center bg-gradient-to-r from-[#e7deff] to-[#ff7f7f]'>
         <WorkExperience />
       </section>
       {/* Skills */}
-      <section id="skills" className='snap-start'>
+      <section id="skills" className='snap-start '>
         <Skills />
       </section>
       {/* Projects */}
-      <section id="projects" className='snap-start'>
+      {/* <section id="projects" className='snap-start'>
         <Projects />
-      </section>
+      </section> */}
       {/* Contact Me */}
-      <section id="contact" className='snap-start'>
+      <section id="contact" className='snap-start bg-gradient-to-l from-[#e7deff] to-[#ff7f7f]'>
         <ContactMe />
       </section>
     </div>

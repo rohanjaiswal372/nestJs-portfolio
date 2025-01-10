@@ -1,6 +1,9 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiGoogledocs } from "react-icons/si";
 import { AnimatePresence, motion } from 'framer-motion'
+import Link from 'next/link';
 
 function Header() {
   return (
@@ -21,18 +24,15 @@ function Header() {
         duration: 1.5,
       }}
       className='flex flex-row items-center'>
-        <SocialIcon url="https://www.youtube.com/watch?v=urgi2iz9P6U&t=245s&ab_channel=SonnySangha" 
-        fgColor="gray"
-        bgColor='transparent'
-         />
-        <SocialIcon url="https://www.youtube.com/watch?v=urgi2iz9P6U&t=245s&ab_channel=SonnySangha" 
-        fgColor="gray"
-        bgColor='transparent'
-         />
-        <SocialIcon url="https://www.youtube.com/watch?v=urgi2iz9P6U&t=245s&ab_channel=SonnySangha" 
-        fgColor="gray"
-        bgColor='transparent'
-         />
+        <a href="https://github.com/rohanjaiswal372" className='px-2 text-2xl'>
+          <FaGithub/>
+        </a>
+        <a href="https://www.linkedin.com/in/rohan-jaiswal-developer/" className='px-2 text-2xl'>
+          <FaLinkedin/>
+        </a>
+        <a href="" className='px-2 text-2xl'>
+          <SiGoogledocs/>
+        </a>
       </motion.div>
 
       <motion.div 
@@ -57,7 +57,9 @@ function Header() {
           bgColor='transparent'
           />
          <p className='="uppercase hidden md:inline-flex text-sm text-gray-400'>
+          <a href="#contact">
           Get In Touch
+          </a>
          </p>
       </motion.div>
     </header>

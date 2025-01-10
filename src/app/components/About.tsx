@@ -29,8 +29,8 @@ function About() {
         src='/profile1.jpg'
       />
 
-      <div className='space-y-7 px-0 md:px-10'>
-        <h4 className='text-2xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]'>little</span> background</h4>
+      <div className=' px-0 md:px-10'>
+        <h4 className=' text-xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]'>little</span> background</h4>
         <p className='text-lg leading-[2] tracking-wide'>
           With a passion for crafting transformative digital experiences, I am a full-stack web developer dedicated to delivering innovative, user-centric solutions. My expertise spans React, Next.js, Jenkins, OpenShift, Angular, and PostgreSQL, enabling me to build scalable, high-performance applications that offer seamless and intuitive user interactions.<br />
           In the front-end, I leverage React and Next.js to create dynamic, lightning-fast interfaces, while PostgreSQL ensures robust data management. My proficiency in Jenkins and OpenShift accelerates CI/CD processes, ensuring reliable deployments, and Angular adds versatility to tackle any project challenge.<br />
