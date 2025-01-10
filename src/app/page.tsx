@@ -33,7 +33,7 @@ export default function Home() {
         <Projects />
       </section> */}
       {/* Contact Me */}
-      <section id="contact" className='snap-start bg-gradient-to-l from-[#e7deff] to-[#ff7f7f]'>
+      <section id="contact" className='snap-start'>
         <ContactMe />
       </section>
     </div>

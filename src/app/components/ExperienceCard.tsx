@@ -15,18 +15,18 @@ function ExperienceCard(props: any) {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className='w-12 h-22 rounded-full xl:w-[120px] xl:h-[160px] object-cover object-center'
-        src="/profile.jpeg"
+        className='w-12 h-22 rounded-full xl:w-[120px] xl:h-[160px] object-contain object-center'
+        src={props.details.logo}
       />
 
       <div className='px-0 md:px-10'>
         <h4 className='text-2xl name font-light pb-3'>{props.details.name}</ h4>
         <p className=' text-md font-bold mt-1 title'>{props.details.title}</p>
-        <div className='flex space-x-2 my-2 technology items-center'>
+        {/* <div className='flex space-x-2 my-2 technology items-center'>
           <Image className='h-6 w-6 rounded-full' alt="" src="/profile1.jpg" width={20} height={20} />
           <Image className='h-6 w-6 rounded-full' alt="" src="/profile1.jpg" width={20} height={20} />
           <Image className='h-6 w-6 rounded-full' alt="" src="/profile1.jpg" width={20} height={20} />
-        </div>
+        </div> */}
         <p className='uppercase py-2 text-grey-300 duration font-semibold'> Started work at {props.details.startDate} - Ended {props.details.endDate}</p>
         <ul className='space-y-2 ml-5 text-sm responsibilities'>
           {props.details.responsibilities ?

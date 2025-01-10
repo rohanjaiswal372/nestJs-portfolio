@@ -3,8 +3,6 @@ import { motion } from 'framer-motion'
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
 import { useForm, SubmitHandler } from "react-hook-form"
 import emailjs from 'emailjs-com'
-//email service
-//https://dashboard.emailjs.com/admin
 
 type Props = {}
 
@@ -77,12 +75,44 @@ function ContactMe({ }: Props) {
 
         <form className='flex flex-col space-y-2 w-full mx-auto' onSubmit={handleSubmit(onSubmit)}>
           <div className='flex flex-col sm:flex-row space-y-2 sm:space-x-4 sm:space-y-0 w-full'>
-            <input {...register('name', { required: true })} className='contactInput flex-1' type="text" placeholder='Name' />
-            <input {...register('email', { required: true })} className='contactInput flex-1' type="email" placeholder='Email' />
+            <input
+              {...register('name', { required: 'Name is required' })}
+              className='contactInput flex-1'
+              type="text"
+              placeholder='Name'
+            />
+            {errors.name && <p className="text-red-500 text-sm">{errors.name.message}</p>}
+
+            <input
+              {...register('email', {
+                required: 'Email is required',
+                pattern: {
+                  value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+                  message: 'Invalid email address'
+                }
+              })}
+              className='contactInput flex-1'
+              type="email"
+              placeholder='Email'
+            />
+            {errors.email && <p className="text-red-500 text-sm">{errors.email.message}</p>}
           </div>
 
-          <input {...register('subject', { required: true })} className='contactInput' type="text" placeholder='Subject' />
-          <textarea {...register('message', { required: true })} className='contactInput text-black' placeholder='Message' />
+          <input
+            {...register('subject', { required: 'Subject is required' })}
+            className='contactInput'
+            type="text"
+            placeholder='Subject'
+          />
+          {errors.subject && <p className="text-red-500 text-sm">{errors.subject.message}</p>}
+
+          <textarea
+            {...register('message', { required: 'Message is required' })}
+            className='contactInput text-black'
+            placeholder='Message'
+          />
+          {errors.message && <p className="text-red-500 text-sm">{errors.message.message}</p>}
+
           <button type='submit' className='bg-[#F7AB0A] py-3 px-8 rounded-md text-black font-bold text-lg hover:bg-[#F7AB0A]/80 transition'>
             Submit
           </button>

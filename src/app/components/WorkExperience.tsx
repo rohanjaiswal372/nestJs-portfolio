@@ -8,6 +8,7 @@ function WorkExperience() {
     {
       "name" : "The Walt Disney Company, CA",
       "title" : "Full Stack Developer",
+      "logo": "/disney.png",
       "technology" : [],
       "startDate" : "Nov 2020",
       "endDate" : "current",
@@ -20,6 +21,7 @@ function WorkExperience() {
     {
       "name" : "ION Media Networks, FL",
       "title" : "Web Developer",
+      "logo": "/ion.png",
       "technology" : [],
       "startDate" : "Aug 2018",
       "endDate" : "May 2020",
@@ -32,6 +34,7 @@ function WorkExperience() {
     {
       "name" : "CAT Technology Inc, NJ",
       "title" : "Web Developer",
+      "logo": "/cat.png",
       "technology" : [],
       "startDate" : "Nov 2017",
       "endDate" : "Aug 2018",
@@ -44,6 +47,7 @@ function WorkExperience() {
     {
       "name" : "Esprit Business Solution., India",
       "title" : "Web Developer",
+      "logo": "/espirit.svg",
       "technology" : [],
       "startDate" : "Aug 2014",
       "endDate" : "Jan 2016",

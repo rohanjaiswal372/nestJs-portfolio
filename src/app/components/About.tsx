@@ -26,7 +26,7 @@ function About() {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
-        src='/profile1.jpg'
+        src='/aboutMe.png'
       />
 
       <div className=' px-0 md:px-10'>
