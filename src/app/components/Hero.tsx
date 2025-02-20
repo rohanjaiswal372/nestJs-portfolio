@@ -8,9 +8,9 @@ function Hero() {
   const [text, count] = useTypewriter({
     words: [
       "Software Engineer..!",
-      "Skilled in crafting elegant, responsive websites.",
-      "Proficient in optimizing efficient, scalable code.",
-      "Innovative with meticulous attention to design.",
+      "Experienced in designing sleek, responsive websites.",
+      "Skilled at enhancing code for efficiency and scalability.",
+      "Creative with a keen focus on design.",
     ],
     loop: true,
     delaySpeed: 4000,
