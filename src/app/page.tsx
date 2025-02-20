@@ -25,7 +25,7 @@ export default function Home() {
         <WorkExperience />
       </section>
       {/* Skills */}
-      <section id="skills" className='snap-start bg-gradient-to-b from-[#faffde] to-white'>
+      <section id="skills" className='snap-start bg-gradient-to-b from-[#deffe8] to-white'>
         <Skills />
       </section>
       {/* Projects */}
