@@ -21,11 +21,11 @@ export default function Home() {
         <About />
       </section>
       {/* Experience */}
-      <section id="experience" className='snap-center bg-gradient-to-r from-[#e7deff] to-[#ff7f7f]'>
+      <section id="experience" className='snap-center bg-gradient-to-b from-[#defbff] to-white'>
         <WorkExperience />
       </section>
       {/* Skills */}
-      <section id="skills" className='snap-start '>
+      <section id="skills" className='snap-start bg-gradient-to-b from-[#faffde] to-white'>
         <Skills />
       </section>
       {/* Projects */}
@@ -33,7 +33,7 @@ export default function Home() {
         <Projects />
       </section> */}
       {/* Contact Me */}
-      <section id="contact" className='snap-start'>
+      <section id="contact" className='snap-start bg-gradient-to-b from-[#fffbde] to-white'>
         <ContactMe />
       </section>
     </div>

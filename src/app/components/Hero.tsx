@@ -7,7 +7,7 @@ import Link from 'next/link'
 function Hero() {
   const [text, count] = useTypewriter({
     words: [
-      "Software Engineer",
+      "Software Engineer..!",
       "Skilled in crafting elegant, responsive websites.",
       "Proficient in optimizing efficient, scalable code.",
       "Innovative with meticulous attention to design.",
@@ -26,26 +26,41 @@ function Hero() {
         alt="Profile Image"
       />
       <div className='z-20'>
-        <h2 className='text-sm uppercase text-[#800020] pb-2 pl-3 tracking-[15px]'>ROHAN JAISWAL</h2>
+        <h2 className="text-sm sm:text-base md:text-lg lg:text-xl uppercase text-[#800020] pb-2 pl-3 tracking-[5px] sm:tracking-[10px] md:tracking-[12px] lg:tracking-[15px]">
+          ROHAN JAISWAL
+        </h2>
         {/* <h2 className='text-sm uppercase text-[#800020] pb-2 tracking-[15px]'>Software Engineer</h2> */}
-        <h1 className='text-4xl sm:text-5xl lg:text-6xl font-semibold scroll-px-10 pt-5 pb-5'>
-          <span className='mr-3 text-[#333333]'>{text}</span>
-          <Cursor cursorColor='#f7ABABAB' />
+        <h1 className="text-2xl sm:text-xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold scroll-px-10 pt-4 pb-4">
+          <span className="mr-3 text-[#333333]">{text}</span>
+          <Cursor cursorColor="#f7ABABAB" />
         </h1>
-        <div className='pt-5 flex flex-wrap justify-center gap-4'>
-          <Link href="#about">
-            <button className='heroButton px-6 py-3 text-sm sm:text-base'>About</button>
+
+        <div className="pt-5 flex flex-wrap justify-center gap-4">
+          <Link href="#about" className='w-40 md:w-56 lg:w-70'>
+            <button className="heroButton w-full px-6 py-3 ml-0 text-xs sm:text-sm md:text-base lg:text-lg">
+              About
+            </button>
           </Link>
-          <Link href="#experience">
-            <button className='heroButton px-6 py-3 text-sm sm:text-base'>Experience</button>
+          <Link href="#experience" className='w-40 md:w-56 lg:w-70'>
+            <button className="heroButton w-full px-6 py-3 ml-0 text-xs sm:text-sm md:text-base lg:text-lg">
+              Experience
+            </button>
           </Link>
-          <Link href="#skills">
-            <button className='heroButton px-6 py-3 text-sm sm:text-base'>Skills</button>
+          <Link href="#experience" className='w-40 md:w-56 lg:w-70'>
+            <button className="heroButton w-full px-6 py-3 ml-0 text-xs sm:text-sm md:text-base lg:text-lg">
+              Skills
+            </button>
           </Link>
-          <Link href="#contact">
-            <button className='heroButton px-6 py-3 text-sm sm:text-base'>Contact Me</button>
+          <Link href="#experience" className='w-40 md:w-56 lg:w-70'>
+            <button className="heroButton w-full px-6 py-3 ml-0 text-xs sm:text-sm md:text-base lg:text-lg">
+              Contact Me
+            </button>
+
           </Link>
         </div>
+
+
+
       </div>
     </div>
   )

@@ -46,31 +46,32 @@ function ContactMe({ }: Props) {
 
   return (
     <div className='h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center px-5 sm:px-10 lg:px-16'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl pb-20'>
-        Contact
+      <h3 className="absolute top-20 sm:top-20 md:top-24 uppercase tracking-[10px] sm:tracking-[15px] md:tracking-[20px] text-gray-500 text-xl sm:text-2xl md:text-3xl">        Contact
       </h3>
 
-      <div className='flex flex-col space-y-10 w-full sm:w-3/4 md:w-2/3 lg:w-1/2'>
-        <h4 className='text-xl text-center pt-20'>
+      <div className='flex flex-col space-y-10 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pt-10'>
+        <h4 className='text-sm sm:text-xl md:text-2xl text-center pt-20 leading-[1.4] sm:leading-[1.6] md:leading-[1.8]'>
           I have got just what you need.{" "}
-          <span className='underline decoration-[#F7AB0A]/50 font-semibold'>Let's Talk.</span>
+          <span className='underline decoration-[#F7AB0A]/50 font-semibold'>
+            Let's Talk.
+          </span>
         </h4>
 
         <div className='space-y-10'>
           <div className='flex items-center space-x-5 justify-center md:justify-start'>
             <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-            <p className='text-xl'>+1 (224) 215 5408</p>
+            <p className='text-sm sm:text-lg md:text-xl leading-[1.5]'>+1 (224) 215 5408</p>
           </div>
 
           <div className='flex items-center space-x-5 justify-center md:justify-start'>
             <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-            <p className='text-xl'>jlrohan56@gmail.com</p>
+            <p className='text-sm sm:text-lg md:text-xl leading-[1.5]'>jlrohan56@gmail.com</p>
           </div>
 
-          <div className='flex items-center space-x-5 justify-center md:justify-start'>
+          {/* <div className='flex items-center space-x-5 justify-center md:justify-start'>
             <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-            <p className='text-xl'>Chicago, IL</p>
-          </div>
+            <p className='text-sm sm:text-lg md:text-xl leading-[1.5]'>Chicago, IL</p>
+          </div> */}
         </div>
 
         <form className='flex flex-col space-y-2 w-full mx-auto' onSubmit={handleSubmit(onSubmit)}>
@@ -122,6 +123,7 @@ function ContactMe({ }: Props) {
           <p className='text-green-500 text-center mt-4'>{response}</p>
         )}
       </div>
+
     </div>
   )
 }

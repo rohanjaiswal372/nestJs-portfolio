@@ -30,12 +30,12 @@ function Skills() {
       whileInView={{ opacity: 1 }}
       className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
 
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-        Technologies I Use
+      <h3 className="absolute top-20 sm:top-20 md:top-24 uppercase tracking-[10px] sm:tracking-[15px] md:tracking-[20px] text-gray-500 text-xl sm:text-2xl md:text-3xl">
+        Technologies <span className="text-red-500">I</span> Use
       </h3>
 
       <div className="absolute top-36 carousel-wrapper flex w-[100%] sm:w-[100%] md:w-[100%] text-center pt-4 mx-auto ">
-        <div className="w-[80%] sm:w-[90%] md:w-[70%] overflow-hidden bg-[#fcf6f4] mx-auto rounded-[15px]">
+        <div className="w-[80%] sm:w-[90%] md:w-[70%] overflow-hidden mx-auto rounded-[15px]">
           <div className="carousel-block ">
             <div className="carousel-inner carousel-left flex">
               <span className="flex">
@@ -150,10 +150,11 @@ function Skills() {
 
         </div>
       </div>
-      <div className=' w-[60%] text-center pt-64'>
-        <h3 className="uppercase tracking-[3px] text-gray-500 text-sm">
+      <div className='w-[90%] md:w-[75%] text-center pt-[100%] md:pt-64'>
+        <h3 className="uppercase tracking-[3px] text-gray-500 text-sm sm:text-base md:text-lg lg:text-xl">
           I specialize in a diverse range of modern technologies that empower me to build scalable, efficient, and dynamic web applications. From front-end frameworks to back-end development and everything in between.
         </h3>
+
 
       </div>
 
