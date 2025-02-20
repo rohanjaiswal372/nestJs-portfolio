@@ -27,7 +27,7 @@ function ExperienceCard(props: any) {
           <Image className='h-6 w-6 rounded-full' alt="" src="/profile1.jpg" width={20} height={20} />
           <Image className='h-6 w-6 rounded-full' alt="" src="/profile1.jpg" width={20} height={20} />
         </div> */}
-        <p className='uppercase py-2 text-grey-300 duration font-semibold'> Started work at {props.details.startDate} - Ended {props.details.endDate}</p>
+        <p className='uppercase py-2 text-grey-300 duration font-semibold'> Started work at {props.details.startDate} - {props.details.endDate === 'current' ? 'Current' : 'Ended ' + props.details.endDate}</p>
         <ul className='space-y-2 ml-5 text-sm responsibilities'>
           {props.details.responsibilities ?
             props.details.responsibilities.map((el: any, key: any) => <li key={key}> {el} </li>)

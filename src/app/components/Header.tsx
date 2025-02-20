@@ -24,13 +24,13 @@ function Header() {
         duration: 1.5,
       }}
       className='flex flex-row items-center'>
-        <a href="https://github.com/rohanjaiswal372" className='px-2 text-2xl'>
+        <a href="https://github.com/rohanjaiswal372"  target="_blank" className='px-2 text-2xl'>
           <FaGithub/>
         </a>
-        <a href="https://www.linkedin.com/in/rohan-jaiswal-developer/" className='px-2 text-2xl'>
+        <a href="https://www.linkedin.com/in/rohan-jaiswal-developer/"  target="_blank" className='px-2 text-2xl'>
           <FaLinkedin/>
         </a>
-        <a href="" className='px-2 text-2xl'>
+        <a href="https://docs.google.com/document/d/18XitGv7wWdzwDNX95tGpB1CHMphcWCeJ1XIspiZG-Cs/edit?usp=sharing"  target="_blank" className='px-2 text-2xl'>
           <SiGoogledocs/>
         </a>
       </motion.div>
