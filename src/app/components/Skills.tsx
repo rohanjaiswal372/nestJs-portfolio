@@ -34,12 +34,8 @@ function Skills() {
         Technologies I Use
       </h3>
 
-      <h3 className="absolute top-36 w-[70%] text-center pt-4 pb-14 uppercase tracking-[3px] text-gray-500 text-sm">
-        I specialize in a diverse range of modern technologies that empower me to build scalable, efficient, and dynamic web applications. From front-end frameworks to back-end development and everything in between.
-      </h3>
-
-      <div className="carousel-wrapper flex w-[80%] sm:w-[90%] md:w-[70%] text-center pt-14 mx-auto ">
-        <div className=" w-[80%] sm:w-[90%] md:w-[70%] overflow-hidden bg-[#e7deff] mx-auto rounded-[15px]">
+      <div className="absolute top-36 carousel-wrapper flex w-[100%] sm:w-[100%] md:w-[100%] text-center pt-4 mx-auto ">
+        <div className="w-[80%] sm:w-[90%] md:w-[70%] overflow-hidden bg-[#fcf6f4] mx-auto rounded-[15px]">
           <div className="carousel-block ">
             <div className="carousel-inner carousel-left flex">
               <span className="flex">
@@ -154,6 +150,13 @@ function Skills() {
 
         </div>
       </div>
+      <div className=' w-[60%] text-center pt-64'>
+        <h3 className="uppercase tracking-[3px] text-gray-500 text-sm">
+          I specialize in a diverse range of modern technologies that empower me to build scalable, efficient, and dynamic web applications. From front-end frameworks to back-end development and everything in between.
+        </h3>
+
+      </div>
+
     </motion.div>
   );
 }

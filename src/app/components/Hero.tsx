@@ -7,6 +7,7 @@ import Link from 'next/link'
 function Hero() {
   const [text, count] = useTypewriter({
     words: [
+      "Software Engineer",
       "Skilled in crafting elegant, responsive websites.",
       "Proficient in optimizing efficient, scalable code.",
       "Innovative with meticulous attention to design.",
@@ -18,14 +19,15 @@ function Hero() {
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       {/* <BackgroundCircles /> */}
       <Image
-        src="/profile.png"
-        className="relative rounded-full mx-auto object-cover h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] md:h-[250px] md:w-[250px] lg:h-[300px] lg:w-[300px]"
-        width={500}
-        height={500}
+        src="/dp3.jpg"
+        className="object-contain rounded-full h-[200px] w-auto sm:h-[200px] md:h-[400px] lg:h-[400px]"
+        width={350}
+        height={350}
         alt="Profile Image"
       />
       <div className='z-20'>
-        <h2 className='text-sm uppercase text-[#800020] pb-2 tracking-[15px]'>Software Engineer</h2>
+        <h2 className='text-sm uppercase text-[#800020] pb-2 pl-3 tracking-[15px]'>ROHAN JAISWAL</h2>
+        {/* <h2 className='text-sm uppercase text-[#800020] pb-2 tracking-[15px]'>Software Engineer</h2> */}
         <h1 className='text-4xl sm:text-5xl lg:text-6xl font-semibold scroll-px-10 pt-5 pb-5'>
           <span className='mr-3 text-[#333333]'>{text}</span>
           <Cursor cursorColor='#f7ABABAB' />

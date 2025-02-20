@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className='main h-screen snap-y snap-mandatory overflow-scroll z-0'>
       <Header />
-      <section id="hero" className='snap-center bg-[#e7deff]'>
+      <section id="hero" className='snap-center bg-gradient-to-b from-[#E7DEFF] to-white'>
         <Hero />
       </section>
 

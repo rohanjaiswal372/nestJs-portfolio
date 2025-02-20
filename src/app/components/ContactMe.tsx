@@ -59,7 +59,7 @@ function ContactMe({ }: Props) {
         <div className='space-y-10'>
           <div className='flex items-center space-x-5 justify-center md:justify-start'>
             <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-            <p className='text-xl'>+123456789</p>
+            <p className='text-xl'>+1 (224) 215 5408</p>
           </div>
 
           <div className='flex items-center space-x-5 justify-center md:justify-start'>
@@ -69,7 +69,7 @@ function ContactMe({ }: Props) {
 
           <div className='flex items-center space-x-5 justify-center md:justify-start'>
             <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-            <p className='text-xl'>+123 Denver Street</p>
+            <p className='text-xl'>Chicago, IL</p>
           </div>
         </div>
 

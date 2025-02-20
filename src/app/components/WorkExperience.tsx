@@ -6,12 +6,25 @@ import ExperienceCard from './ExperienceCard'
 function WorkExperience() {
   const experience = [
     {
+      "name" : " Discover Financial Services, IL",
+      "title" : "Full Stack Developer",
+      "logo": "/discover-logo.svg",
+      "technology" : [],
+      "startDate" : "Oct 2023",
+      "endDate" : "current",
+      "responsibilities" : [
+        "Developed and maintained scalable web applications using Node.js and NestJS for backend services, ensuring efficient data processing and integration with various Disney platforms",
+        "Built dynamic, user-friendly interfaces with React.js, implementing responsive designs to optimize the user experience across a wide range of devices",
+        "Designed and managed robust PostgreSQL databases, optimizing queries and schema to support complex data structures and improve performance",
+      ],
+    },
+    {
       "name" : "The Walt Disney Company, CA",
       "title" : "Full Stack Developer",
       "logo": "/disney.png",
       "technology" : [],
       "startDate" : "Nov 2020",
-      "endDate" : "current",
+      "endDate" : "Feb 2023",
       "responsibilities" : [
         "Spearheaded the development of enterprise application software using Node JS (9.2), React JS(18.2), Nest JS(9.2), Angular JS 14, PHP  and PostgreSQL",
         "Performed full stack development to include back-end web services  and front-end User Interface. Write clean code, take full responsibility for technical delivery and solved challenging data set problem",
