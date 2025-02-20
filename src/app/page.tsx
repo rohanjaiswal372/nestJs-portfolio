@@ -1,4 +1,5 @@
 "use client";
+import { useState, useEffect } from 'react';
 import Image from 'next/image'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -9,9 +10,16 @@ import Projects from './components/Projects'
 import ContactMe from './components/ContactMe'
 
 export default function Home() {
+  const [isHeroRendered, setIsHeroRendered] = useState(false);
+
+  useEffect(() => {
+    // This will be triggered once the Hero component is mounted
+    setIsHeroRendered(true);
+  }, []);
+
   return (
     <div className='main h-screen snap-y snap-mandatory overflow-scroll z-0'>
-      <Header />
+      {isHeroRendered && <Header />}
       <section id="hero" className='snap-center bg-gradient-to-b from-[#E7DEFF] to-white'>
         <Hero />
       </section>
