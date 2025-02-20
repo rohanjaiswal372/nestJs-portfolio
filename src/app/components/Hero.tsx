@@ -19,7 +19,7 @@ function Hero() {
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       {/* <BackgroundCircles /> */}
       <Image
-        src="/dp3.jpg"
+        src="/dp5.jpg"
         className="object-contain rounded-full h-[200px] w-auto sm:h-[200px] md:h-[400px] lg:h-[400px]"
         width={350}
         height={350}
