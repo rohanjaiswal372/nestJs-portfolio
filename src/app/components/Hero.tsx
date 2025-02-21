@@ -30,7 +30,7 @@ function Hero() {
           ROHAN JAISWAL
         </h2>
         {/* <h2 className='text-sm uppercase text-[#800020] pb-2 tracking-[15px]'>Software Engineer</h2> */}
-        <h1 className="text-2xl sm:text-xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold scroll-px-10 pt-4 pb-4">
+        <h1 className="text-xl sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold scroll-px-10 pt-4 pb-4">
           <span className="mr-3 text-[#333333]">{text}</span>
           <Cursor cursorColor="#f7ABABAB" />
         </h1>
