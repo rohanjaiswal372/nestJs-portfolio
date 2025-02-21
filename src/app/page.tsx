@@ -13,8 +13,9 @@ export default function Home() {
   const [isHeroRendered, setIsHeroRendered] = useState(false);
 
   useEffect(() => {
-    // This will be triggered once the Hero component is mounted
-    setIsHeroRendered(true);
+    setTimeout(() => {
+      setIsHeroRendered(true);
+    }, 2000); // 2000 milliseconds = 2 seconds
   }, []);
 
   return (
