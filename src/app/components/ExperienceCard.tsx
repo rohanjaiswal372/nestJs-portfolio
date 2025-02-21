@@ -16,7 +16,7 @@ function ExperienceCard(props: any) {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className='w-12 h-22 rounded-full md:w-[120px] md:h-[160px] object-contain object-center'
+        className='w-[12rem] h-20 md:h-22 md:rounded-full md:w-[120px] md:h-[160px] object-contain object-center'
         src={props.details.logo}
       />
 
