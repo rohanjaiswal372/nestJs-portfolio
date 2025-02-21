@@ -19,7 +19,7 @@ function Hero() {
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       {/* <BackgroundCircles /> */}
       <Image
-        src="/dp5.jpg"
+        src="/dp6.jpeg"
         className="object-contain rounded-full h-[200px] w-auto sm:h-[200px] md:h-[400px] lg:h-[400px]"
         width={350}
         height={350}
@@ -46,12 +46,12 @@ function Hero() {
               Experience
             </button>
           </Link>
-          <Link href="#experience" className='w-40 md:w-56 lg:w-70'>
+          <Link href="#skills" className='w-40 md:w-56 lg:w-70'>
             <button className="heroButton w-full px-6 py-3 ml-0 text-xs sm:text-sm md:text-base lg:text-lg">
               Skills
             </button>
           </Link>
-          <Link href="#experience" className='w-40 md:w-56 lg:w-70'>
+          <Link href="#contact" className='w-40 md:w-56 lg:w-70'>
             <button className="heroButton w-full px-6 py-3 ml-0 text-xs sm:text-sm md:text-base lg:text-lg">
               Contact Me
             </button>
