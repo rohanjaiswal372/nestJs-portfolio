@@ -32,11 +32,11 @@ function About() {
       />
 
 
-      <div className='px-0 md:px-10 mt-3 md:mt-0'>
+      <div className='px-0 md:px-10 mt-3 md:mt-0 lg:mt-40'>
         <h4 className='text-xs sm:text-sm md:text-xl font-semibold'>
-          Here is a <span className='underline decoration-[#F7AB0A]'>little</span> background
+          Here is a <span className='underline decoration-[#efeae1]'>little</span> background
         </h4>
-        <p className='text-xs sm:text-sm md:text-lg   leading-[1.2] sm:leading-[1.8] md:leading-[2] tracking-wide'>
+        <p className='text-xs sm:text-sm md:text-lg leading-[1.2] sm:leading-[1.8] md:leading-[2] lg:leading-[1.8] tracking-wide'>
           My portfolio serves as a concise representation of my skills, showcasing my proficiency in both front-end and back-end development. I have built this portfolio using React alongside the Next.js framework, complemented by Tailwind CSS to deliver a sleek and responsive design. The goal was not only to demonstrate my technical abilities but also to highlight my capability to create visually appealing, user-friendly web apps, incorporating dynamic animations that enhance the user experience.
           However, this portfolio only scratches the surface of my capabilities. I am well-versed in full-stack development, with extensive experience working with both front-end and back-end technologies. On the backend, I specialize in frameworks like Next.js, Express.js, and Nest.js, all of which enable me to create robust, scalable apps. Additionally, I have a solid foundation in multiple programming languages, including Python, PHP, Ruby, and Java, allowing me to adapt to various project requirements and client needs.
           In terms of database management, I have hands-on experience working with relational and non-relational databases, including MySQL, PostgreSQL, and MS SQL, ensuring that I can implement efficient, secure, and high-performance database solutions tailored to project specifications.
