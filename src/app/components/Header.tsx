@@ -21,7 +21,7 @@ function Header() {
         scale: 1
       }}
       transition={{
-        duration: 1.5,
+        duration: 1,
       }}
       className='flex flex-row items-center'>
         <a href="https://github.com/rohanjaiswal372"  target="_blank" className='px-2 text-2xl'>
