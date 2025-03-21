@@ -26,7 +26,7 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <section id="about" className='snap-center'>
+      <section id="about" className='snap-center overflow-hidden'>
         <About />
       </section>
       {/* Experience */}
