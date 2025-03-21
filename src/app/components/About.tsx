@@ -40,7 +40,7 @@ function About() {
           My portfolio serves as a concise representation of my skills, showcasing my proficiency in both front-end and back-end development. I have built this portfolio using React alongside the Next.js framework, complemented by Tailwind CSS to deliver a sleek and responsive design. The goal was not only to demonstrate my technical abilities but also to highlight my capability to create visually appealing, user-friendly web apps, incorporating dynamic animations that enhance the user experience.
           However, this portfolio only scratches the surface of my capabilities. I am well-versed in full-stack development, with extensive experience working with both front-end and back-end technologies. On the backend, I specialize in frameworks like Next.js, Express.js, and Nest.js, all of which enable me to create robust, scalable apps. Additionally, I have a solid foundation in multiple programming languages, including Python, PHP, Ruby, and Java, allowing me to adapt to various project requirements and client needs.
           In terms of database management, I have hands-on experience working with relational and non-relational databases, including MySQL, PostgreSQL, and MS SQL, ensuring that I can implement efficient, secure, and high-performance database solutions tailored to project specifications.
-          This portfolio is just a glimpse into my potential. My passion for coding, problem-solving, and continuous learning drives me to stay on top of the latest technologies, frameworks, and best practices to deliver high-quality solutions.
+          My passion for coding, problem-solving, and continuous learning drives me to stay on top of the latest technologies to deliver high-quality solutions.
         </p>
       </div>
 

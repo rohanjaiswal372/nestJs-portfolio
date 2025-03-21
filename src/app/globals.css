@@ -116,7 +116,7 @@
 }
 .about-text {
   letter-spacing: 0.025em;
-  line-height: 225% !important;
+  line-height: 225%;
 }
 
 /* Tablet styles: Apply when screen width is 768px or more but less than 1024px */
@@ -132,7 +132,7 @@
   }
   .about-text {
     letter-spacing: 0.025em;
-    line-height: 130% !important;
+    line-height: 130%;
     font-size: 95%;
   }
 }
@@ -166,12 +166,12 @@
   }
   .about-title {
     font-size: 1rem;
-    line-height: 3rem;
+    line-height: 1.8rem;
   }
   .about-text {
     letter-spacing: 0.025em;
-    line-height: 1.7;
-    font-size: 0.75rem;
+    line-height: 105%;
+    font-size: 100%;
   }
 }
 
