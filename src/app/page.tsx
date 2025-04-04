@@ -12,15 +12,15 @@ import ContactMe from './components/ContactMe'
 export default function Home() {
   const [isHeroRendered, setIsHeroRendered] = useState(false);
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setIsHeroRendered(true);
-  //   }, 2000); // 2000 milliseconds = 2 seconds
-  // }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsHeroRendered(true);
+    }, 2000); // 2000 milliseconds = 2 seconds
+  }, []);
 
   return (
     <div className='main h-screen snap-y snap-mandatory overflow-scroll z-0'>
-       <Header />
+      {isHeroRendered && <Header />}
       <section id="hero" className='snap-center bg-gradient-to-b from-[#E7DEFF] to-white'>
         <Hero />
       </section>
